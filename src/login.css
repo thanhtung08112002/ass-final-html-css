@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+}
+.login {
+  margin: auto 0;
+  text-align: center;
+}
+.content {
+  position: relative;
+  right: 25px;
+}
+.content .say-hi {
+  position: relative;
+  right: 100px;
+}
+.content span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.content h1 {
+  font-size: 32px;
+  margin: 1px 0 19px 0;
+}
+#email {
+  position: relative;
+  right: 155px;
+}
+#pass {
+  position: relative;
+  right: 143px;
+}
+.sign-in span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.sign-in input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 17px 0 17px 20px;
+}
+.sign-in .pass {
+  padding: 20px 0 14px 20px;
+}
+.clik {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  margin-top: 19px;
+}
+
+.question input {
+  width: 15px;
+  height: 15px;
+}
+.question span {
+  font-size: 14px;
+  margin: 12px;
+}
+.right {
+  position: relative;
+  left: 68px;
+}
+#forgot {
+  position: relative;
+  right: 60px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #37a9cd;
+}
+.login-now button {
+  width: 347px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: #37a9cd;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: none  ;
+  border-radius: 5px;
+}
+.Or-sign-in-with-google button{
+  width: 347px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: #2D3748;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: none  ;
+  border-radius: 5px;
+ position: relative;
+ right: 0px;
+}
+.Or-sign-in-with-google img{
+  position: relative;
+  top: 3px;
+  margin-right:11px ;
+}
+.help{
+  margin-top:17px ;
+}
+.help span{
+  font-size: 16px;
+  font-weight: bold;
+}
+.help a{
+  text-decoration: none;
+  color:#37A9CD ;
+}
+

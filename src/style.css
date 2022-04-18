@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1440px;
+}
+.header-logo{
+    text-align: center;
+    margin: 32px 0;
+}
+.header-menu{
+    text-align: center;
+    margin-bottom:64px ;
+}
+ul li{
+    display: inline;
+    margin: 0 16px;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+li a:hover{
+    background-color: aqua;
+    text-decoration: underline;
+    color: gray;
+}
+.main-content-chooose{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+}
+.main-content-chooose-content{
+    margin: auto 0;
+}
+.main-content-chooose-img img{
+    width: 50%;
+   position: relative;
+   left: 305px;
+}
+.main-content-chooose-content h2{
+    font-size: 48px; 
+    font-weight: bold;
+}
+.main-content-chooose-content p{
+        font-size: 20px;
+        height: 60px;
+        left: 16px;
+        width: 668px;
+        margin-top:32px ;
+        margin-bottom: 16px;
+
+}
+.main-content-chooose-content button{
+    background-color:#0E4C67 ;
+    width: 323px;
+    height: 55px;
+    border: none;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 24px;
+}
+.main-content-favorite h2{
+    text-align: center;
+    margin: 64px 0;
+    font-weight: bold;
+    font-size: 60px;
+}
+.main-content-favorite-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin:0 16px ;
+}
+.footer{
+    background-color:  #0E4C67;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:100px;
+    margin-top: 64px;
+}
+.footer-nguon {
+    margin: auto 0;
+    padding-left: 16px;
+    color: white;
+}
+.footer-nguon span{
+    font-size: 20px
+}
+.footer-email {
+    margin: auto 0;
+    text-align: right;
+}
+.inp{
+    width: 278px;
+    height: 50px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left:25px ;
+    font-size: 16px;
+}
+
+.but{
+    height: 50px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background-color: #FFA800;
+    color: white;
+    padding: 16px 15px;
+    font-size: 16px;
+    margin:0 16px;
+}
